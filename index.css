@@ -280,7 +280,7 @@ select {
 
 .large-button:hover::after,
 .large-button:focus::after {
-    outline: 0;
+    outline: none;
     opacity: 1;
     transform: scale(1.5);
     -webkit-transform: scale(1.5);
