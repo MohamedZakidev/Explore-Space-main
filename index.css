@@ -243,7 +243,7 @@ select {
 /* ------------------- */
 
 .large-button {
-    font-size: .9rem;
+    font-size: 1rem;
     position: relative;
     z-index: 1;
     display: inline-grid;
@@ -255,7 +255,14 @@ select {
     outline: none;
 }
 
+@media(min-width:35rem) {
+    .large-button {
+        font-size: 2rem;
+    }
+}
+
 .large-button::after {
+    outline: none;
     content: '';
     position: absolute;
     z-index: -1;
