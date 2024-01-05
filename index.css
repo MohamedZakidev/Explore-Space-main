@@ -252,6 +252,7 @@ select {
     border-radius: 50%;
     aspect-ratio: 1;
     text-decoration: none;
+    outline: 0;
 }
 
 .large-button::after {
