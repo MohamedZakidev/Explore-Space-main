@@ -40,7 +40,6 @@ function changeTabPanel(e) {
     const targetTab = e.target;
     const targetPanel = targetTab.getAttribute("aria-controls");
     const targetImage = targetTab.getAttribute("data-image");
-    
     const tabContainer = targetTab.parentNode;
     const mainContainer = tabContainer.parentNode;
     
@@ -64,5 +63,5 @@ function hideContent(parent, content) {
 }
 
 function showContent(parent, content) {
-     parent.querySelector(content).removeAttribute('hidden');
+    parent.querySelector(content).removeAttribute('hidden');
 }
